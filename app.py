@@ -1,8 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
-import csv
-import time
-import datetime
 import bs4 as BeautifulSoup
 
 from config import user, password, the_assignment
