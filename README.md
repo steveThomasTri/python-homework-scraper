@@ -3,11 +3,11 @@ This will scrape assignments from bootcampspot
 
 Please make a config.py file with the following info
 
-user = <Your username>
+user = "Your username"
 
-password = <Your password>
+password = "Your password"
 
-the_assignment = <Name of the Assignment>
+the_assignment = "Name of the Assignment"
 
 the_assignment for the first scrape will be the title, in future scrapes, this will be a number when a pattern can be easily recognized.
 
