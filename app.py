@@ -5,9 +5,10 @@ import bs4 as BeautifulSoup
 from config import user, password, the_assignment
 
 page_link = "https://bootcampspot.com"
-browser = webdriver.Chrome(executable_path=r'C:/selenium/chromedriver.exe')
+browser = webdriver.Chrome()
 browser.maximize_window()
 browser.get(page_link)
+browser.quit()
 
 input_email = browser.find_element_by_id("emailAddress")
 input_email.send_keys(user)
